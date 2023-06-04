@@ -1,7 +1,8 @@
 # NodeJs-ServerLess-AWS-DynamoDB-SWAPI-ErikPinares
 
-Repositorio sobre el uso de StarWars API desde AWS con NodeJs y Framework ServerLess
+Repositorio sobre el uso de StarWars API desde AWS con NodeJs (Framework ServerLess), almacenamiento en DynamoDB y Documentacion de API con Swagger UI Express
 
+![Configuracion final de Swagger](https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81rFhjTlo6_A4kDQo77HF4Pk81BnCZBit40KFqyUT3e46JC2KxSVxm5hKwkpB6VPPNj-c-pHiB5dur5WLu4PV7gGvCVMQg=w1920-h973)
 
 ## API Referencia de uso
 
