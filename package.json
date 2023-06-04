@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "Usando SWAPI con Nodejs y AWS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
   },
   "keywords": [],
   "author": "Erik Pinares Rojas",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.5.0",
     "nodemon": "^2.0.22",
-    "serverless-offline": "^12.0.4"
+    "serverless-offline": "^12.0.4",
+    "supertest": "^6.3.3"
   },
   "dependencies": {
     "aws-sdk": "^2.1389.0",
