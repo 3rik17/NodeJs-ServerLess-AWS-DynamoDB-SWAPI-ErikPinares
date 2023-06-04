@@ -1,7 +1,6 @@
 service: aws-erikpinares
 frameworkVersion: "3"
 
-
 provider:
   name: aws
   runtime: nodejs18.x
@@ -21,12 +20,8 @@ provider:
   apiGateway:
     shouldStartNameWithService: true
 
-
 plugins:
   - serverless-offline
-
-
-
 
 functions:
 
@@ -113,9 +108,6 @@ functions:
       - httpApi:
           method: DELETE
           path: /eliminarPlaneta/{id}
-
-
-
 
 resources:
   Resources:
